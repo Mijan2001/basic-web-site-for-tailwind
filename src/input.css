@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* bydefault web page margin padding  */
+.web-page-margin-padding {
+    @apply mx-40 my-16;
+}
+
+/* grid images equal height  */
+.grid-height {
+    @apply h-48 w-full;
+}
